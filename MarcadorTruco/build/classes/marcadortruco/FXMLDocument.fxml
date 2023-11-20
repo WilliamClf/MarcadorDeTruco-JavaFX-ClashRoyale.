@@ -12,7 +12,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="593.0" prefWidth="898.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="marcadortruco.FXMLDocumentController">
     <children>
-        <Pane layoutX="-1.0" prefHeight="593.0" prefWidth="905.0" style="-fx-background-image: url('file:///C:/Users/William/Documents/NetBeansProjects/MarcadorTruco/src/marcadortruco/ClashImages/fundo2.jpg'); -fx-background-size: cover; -fx-background-position: center center;">
+        <Pane layoutX="-1.0" prefHeight="593.0" prefWidth="905.0" style="-fx-background-image: url('file:/C:/Users/William/Desktop/NetBeansProjects/MarcadorTruco/src/marcadortruco/ClashImages/fundo2.jpg'); -fx-background-size: cover; -fx-background-position: center center;">
          <children>
              <Text fill="WHITE" layoutX="398.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Truco" wrappingWidth="147.01171875">
                <font>

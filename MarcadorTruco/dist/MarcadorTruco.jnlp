@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="MarcadorTruco.jar" size="12041037" download="eager" />
+    <jar href="MarcadorTruco.jar" size="12041040" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="marcadortruco.MarcadorTruco"  name="MarcadorTruco" />
   <update check="always"/>

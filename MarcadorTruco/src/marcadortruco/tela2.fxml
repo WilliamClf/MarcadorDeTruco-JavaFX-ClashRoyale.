@@ -12,7 +12,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="593.0" prefWidth="898.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="marcadortruco.Tela2Controller">
     <children>
-        <Pane prefHeight="593.0" prefWidth="906.0" style="-fx-background-image: url('file:/C:/Users/William/Documents/NetBeansProjects/MarcadorTruco/src/marcadortruco/ClashImages/fundo3.png'); -fx-background-size: cover; -fx-background-position: center center;">
+        <Pane prefHeight="593.0" prefWidth="906.0" style="-fx-background-image: url('file:/C:/Users/William/Desktop/NetBeansProjects/MarcadorTruco/src/marcadortruco/ClashImages/fundo3.png'); -fx-background-size: cover; -fx-background-position: center center;">
             <children>
                 <Button fx:id="btnTrucoEquipe1" layoutX="194.0" layoutY="435.0" mnemonicParsing="false" onAction="#trucoEquipe1" prefHeight="70.0" prefWidth="60.0" style="-fx-background-color: #EE00EE;" text="3x" textFill="WHITE">
                     <font>
@@ -78,12 +78,12 @@
                   <Image url="@ClashImages/Logo.png" />
                </image>
             </ImageView>
-            <Label fx:id="vitoriasEquipe1Label" layoutX="81.0" layoutY="81.0" prefHeight="45.0" prefWidth="16.0" text="0" textFill="WHITE">
+            <Label fx:id="vitoriasEquipe1Label" alignment="CENTER" layoutX="74.0" layoutY="81.0" prefHeight="45.0" prefWidth="30.0" text="0" textFill="WHITE">
                <font>
                   <Font name="Arial Black" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="vitoriasEquipe2Label" layoutX="808.0" layoutY="81.0" prefHeight="45.0" prefWidth="16.0" text="0" textFill="WHITE">
+            <Label fx:id="vitoriasEquipe2Label" alignment="CENTER" layoutX="801.0" layoutY="81.0" prefHeight="45.0" prefWidth="30.0" text="0" textFill="WHITE">
             <font>
                   <Font name="Arial Black" size="20.0" />
                </font>
