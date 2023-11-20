@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="593.0" prefWidth="898.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="marcadortruco.FXMLDocumentController">
+    <children>
+        <Pane layoutX="-1.0" prefHeight="593.0" prefWidth="905.0" style="-fx-background-image: url('file:///C:/Users/William/Documents/NetBeansProjects/MarcadorTruco/src/marcadortruco/ClashImages/fundo2.jpg'); -fx-background-size: cover; -fx-background-position: center center;">
+         <children>
+             <Text fill="WHITE" layoutX="398.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Truco" wrappingWidth="147.01171875">
+               <font>
+                  <Font name="Arial Black" size="44.0" />
+               </font>
+            </Text>
+            <Text fill="GOLD" layoutX="342.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Royale" wrappingWidth="221.20001220703125">
+               <font>
+                  <Font name="Arial Black" size="52.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="266.0" fitWidth="205.0" layoutX="42.0" layoutY="285.0">
+               <image>
+                  <Image url="@ClashImages/reiAzul.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="266.0" fitWidth="205.0" layoutX="661.0" layoutY="285.0">
+               <image>
+                  <Image url="@ClashImages/reiVermelho.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="174.0" layoutX="118.0" layoutY="46.0">
+               <image>
+                  <Image url="@ClashImages/header_baby_dragon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="157.0" fitWidth="289.0" layoutX="459.0" layoutY="55.0">
+               <image>
+                  <Image url="@ClashImages/Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnTrocarTela" layoutX="357.0" layoutY="446.0" mnemonicParsing="false" onAction="#handleTrocarTela" prefHeight="105.0" prefWidth="205.0" style="-fx-background-color: #4169E1;" text="Batalha" textFill="GOLD">
+               <font>
+                  <Font name="Arial Black" size="36.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="200.0" fitWidth="167.0" layoutX="453.0" layoutY="153.0">
+               <image>
+                  <Image url="@ClashImages/cavaleiro2.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+    </children>
+</AnchorPane>
